@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container-asteroids {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .titulo-asteroids {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .texto {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #cccccc;
+    margin-bottom: 40px;
+  }
+  
+  .container-asteroids-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .data-group {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .data-date {
+    font-size: 24px;
+    color: #ff9800;
+    margin-bottom: 15px;
+  }
+  
+  .cartao-asteroid {
+    background-color: #333333;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .titulo-asteroid {
+    font-size: 20px;
+    color: #4caf50;
+    margin-bottom: 10px;
+  }
+  
+  .descricao-asteroid {
+    font-size: 16px;
+    color: #dddddd;
+  }
+  
+  .sem-asteroids {
+    text-align: center;
+    color: #f44336;
+    font-size: 18px;
+  }
+  
